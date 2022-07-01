@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/designsignin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ori"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_login"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="@string/username"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edit_username"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_baseline_lock_24"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_password"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient"
+            android:text="SIGN IN" />
+
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account yet?"
+            android:textSize="11sp"
+            android:layout_below="@+id/btn_signin"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

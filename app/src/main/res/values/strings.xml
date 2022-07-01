@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">crudMahasiswa</string>
+    <string name="detail_mhs">Detail Data \n<u>Mahasiswa STTB</u></string>
+    <string name="username">\tMasukan Username</string>
+    <string name="password">\tMasukan Password</string>
+    <string name="nama">Masukan Nama</string>
+    <string name="npm">Masukan Npm</string>
+    <string name="kelas">Masukan Kelas</string>
+
+
+</resources>

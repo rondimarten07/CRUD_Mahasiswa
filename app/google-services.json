@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "262793441888",
+    "firebase_url": "https://students-3031a-default-rtdb.firebaseio.com",
+    "project_id": "students-3031a",
+    "storage_bucket": "students-3031a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262793441888:android:55bbcf32c118988b29c905",
+        "android_client_info": {
+          "package_name": "com.example.crudmahasiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262793441888-bah3m4e5lr4fel1toabpksn0guhfp0eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaOv2kTOatEG0QwXS-EgzGPa6UomEj5GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262793441888-bah3m4e5lr4fel1toabpksn0guhfp0eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
